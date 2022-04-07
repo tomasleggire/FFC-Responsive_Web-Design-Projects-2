@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+body {
+    background-image: url(https://fondosmil.com/fondo/75509.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'M PLUS 1', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+
+
+
+.fondo {
+    min-width: 100vw;
+    height: 100% ;
+    background-color: rgb(212, 62, 62);
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+    
+ 
+}
+
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 375px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.box-1 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-1 p {
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.form {
+    display: flex;
+    background-color: rgba(211, 53, 53, 0.842);
+    height: auto;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    min-width: 720px;
+    line-height: 35px;
+}
+
+input {
+    min-width: 650px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.radio {
+    min-width: 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+label {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+select {
+    min-width: 650px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+
+
+}
+
+option {
+    border-style: none;
+    font-size: 18px;
+}
+
+
+.checkbox {
+    min-width: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+#label-checkbox {
+    text-align: justify;
+}
+
+
+.last-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+    margin: 10px 0;
+    min-height: 110px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+ button {
+     min-height: 40px;
+     margin-top: 10px;
+     border-radius: 20px;
+     border-style: none;
+     color: rgb(216, 60, 60);
+     background-color: rgb(255, 255, 255);
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .box-1 {
+        min-width: 200px;
+    }
+    .form {
+        min-width: 440px;
+    }
+    input {
+        min-width: 400px;
+    }
+    select {
+        min-width: 400px;
+    }
+    label {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .box-1 {
+        min-width: 200px;
+    }
+    .form {
+        min-width: 350px;
+    }
+    input {
+        min-width: 290px;
+    }
+    select {
+        min-width: 290px;
+    }
+    label {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .box-1 {
+        min-width: 100%;
+    }
+    .form {
+        min-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    input {
+        min-width: 270px;
+    }
+    select {
+        min-width: 270px;
+    }
+    label {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:281px) {
+    .box-1 {
+        min-width: 100%;
+    }
+    .form {
+        min-width: 100%;
+        padding: 10px 5px;
+        
+    }
+    input {
+        min-width: 220px;
+    }
+    select {
+        min-width: 220px;
+    }
+    label {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
